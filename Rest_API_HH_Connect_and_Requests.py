@@ -5,10 +5,6 @@ import requests
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 
-import datetime
-import pymysql
-import pymysql.cursors  
-
 class VacancyAnalyzer:
 
 	url = 'https://api.hh.ru/vacancies'
